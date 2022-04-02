@@ -1,0 +1,33 @@
+2022-04-01T04:55:17+00:00 CRITICAL Cannot redeclare ideapro_form_capture() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\mdb-sample-free-wp-theme\woocommerce\cart\cart.php:145) in C:\xampp\htdocs\wordpress\wp-content\themes\mdb-sample-free-wp-theme\woocommerce\cart\cart.php on line 144
+
+2022-04-01T04:59:00+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\mdb-sample-free-wp-theme\woocommerce\cart\cart.php on line 186
+
+2022-04-01T06:39:23+00:00 CRITICAL Uncaught Error: Class 'Artisansweb_Elementor_Addon\Plugin' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\artisansweb-elementor-addon\artisansweb-elementor-addon.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): artisansweb_elementor_addon('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-settings.php(450): do_action('plugins_loaded')
+#4 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\artisansweb-elementor-addon\artisansweb-elementor-addon.php on line 22
+
+2022-04-01T06:42:05+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress\wp-content\plugins\artisansweb-elementor-addon\includes/widgets/artisansweb-testimonial-widget.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\plugins\artisansweb-elementor-addon\includes\plugin.php on line 232
+
+2022-04-01T06:42:49+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress\wp-content\plugins\artisansweb-elementor-addon\includes/widgets/artisansweb-testimonial-widget.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\plugins\artisansweb-elementor-addon\includes\plugin.php on line 232
+
+2022-04-01T06:43:51+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wordpress\wp-content\plugins\artisansweb-elementor-addon\includes/widgets/artisansweb-testimonial-widget.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\plugins\artisansweb-elementor-addon\includes\plugin.php on line 232
+
+2022-04-01T06:54:26+00:00 CRITICAL Uncaught Error: Class 'Elementor_Hello_World_Widget_1' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor-addon\elementor-addon.php:16
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): register_hello_world_widget(Object(Elementor\Widgets_Manager))
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\widgets.php(117): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\widgets.php(297): Elementor\Widgets_Manager->init_widgets()
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php(971): Elementor\Widgets_Manager->get_widget_types('text-editor')
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php(922): Elementor\Core\Bas in C:\xampp\htdocs\wordpress\wp-content\plugins\elementor-addon\elementor-addon.php on line 16
+

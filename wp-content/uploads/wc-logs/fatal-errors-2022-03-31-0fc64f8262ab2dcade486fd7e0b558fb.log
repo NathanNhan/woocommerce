@@ -1,0 +1,26 @@
+2022-03-31T09:57:18+00:00 CRITICAL Uncaught Error: Call to undefined function string_replace() in C:\xampp\htdocs\wordpress\wp-content\themes\mdb-sample-free-wp-theme\woocommerce\single-product\product-image.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1537): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): woocommerce_show_product_images('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\mdb-sample-free-wp-theme\woocommerce\content-single-product.php(43): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\ in C:\xampp\htdocs\wordpress\wp-content\themes\mdb-sample-free-wp-theme\woocommerce\single-product\product-image.php on line 49
+
+2022-03-31T09:57:24+00:00 CRITICAL Uncaught Error: Call to undefined function string_replace() in C:\xampp\htdocs\wordpress\wp-content\themes\mdb-sample-free-wp-theme\woocommerce\single-product\product-image.php:49
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1537): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): woocommerce_show_product_images('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\mdb-sample-free-wp-theme\woocommerce\content-single-product.php(43): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\ in C:\xampp\htdocs\wordpress\wp-content\themes\mdb-sample-free-wp-theme\woocommerce\single-product\product-image.php on line 49
+
+2022-03-31T10:41:15+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\wordpress\wp-content\themes\mdb-sample-free-wp-theme\woocommerce\content-single-product.php on line 86
+
+2022-03-31T10:58:13+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\wordpress\wp-content\themes\mdb-sample-free-wp-theme\woocommerce\cart\cart.php on line 133
+
